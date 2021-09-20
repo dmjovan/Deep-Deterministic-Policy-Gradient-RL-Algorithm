@@ -162,7 +162,7 @@ def policy(state, noise_object):
     return [np.squeeze(legal_action)]
 
 
-############## HIPER-PARAMETERS ##################
+############## HYPER-PARAMETERS ##################
 
 std_dev = 0.2
 ou_noise = OUActionNoise(mean=np.zeros(1), std_deviation=float(std_dev) * np.ones(1))
